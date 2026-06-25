@@ -1,0 +1,174 @@
+﻿﻿<html lang="ko">
+
+<head>
+<title>K01KIM Mobile</title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<LINK rel="SHORTCUT ICON" href="favorite.ico">
+<style>
+
+#dSearch .lObj {float:left;}
+#dSearch .mObj {height:21px; padding-top:3px; background:url(http://imgsrc.search.hanmail.net/event/070817_search/bg.gif); float:left;}
+* html #dSearch .mObj {height:29px; padding-top:6px;}
+#dSearch .mObj input {width:230px; border:#fff solid 1px; font-size:12px; text-align:center;}
+#dSearch .rObj {float:left;}
+
+#dSearch .sObj input {width:90%; solid 1px; font-size:12px; text-align:center;}
+.mimg
+{
+width:19%
+}
+@media (min-width:600px)
+{
+.mimg
+{
+width:13%
+}
+}
+@media (min-width:1024px)
+{
+.mimg
+{
+width:9%
+}
+}
+</style>
+</head>
+<body bgcolor="white" text="black" width=100%>
+<script>  
+function dateMinus(days)
+{
+    var nday = new Date();  //오늘 날짜..  
+    nday.setDate(nday.getDate() - days); //오늘 날짜에서 days만큼을 뒤로 이동 
+    var yy = nday.getFullYear();
+    var mm = nday.getMonth()+1;
+    var dd = nday.getDate();
+    
+    if( mm<10) mm="0"+mm;
+    if( dd<10) dd="0"+dd;
+    return yy + '' + mm + '' + dd;
+}
+</script>
+<TABLE cellspacing="0" cellpadding=0 border=0 width=100%>
+<TR>
+<TD ALIGN=LEFT VALIGN=MIDDLE  witdh=50%>
+<form name="dSearch" action="http://search.naver.com/search.naver">
+<input name="complete" type="hidden" value="1">
+<input name="hl" type="hidden" value="ko">
+<input type="hidden" name="lr" value="" checked id="all"><label for="all"  >
+<div id="dSearch">
+	<div class="sObj"><input type="text" name="query" value="" onclick="this.value='';"></div>
+</div>
+</form>
+</TD>
+<TD ALIGN=RIGHT VALIGN=MIDDLE witdh=50%>
+<form name="dSearch" action="http://www.google.co.kr/search">
+<input name="complete" type="hidden" value="1">
+<input name="hl" type="hidden" value="ko">
+<input type="hidden" name="lr" value="" checked id="all"><label for="all"  >
+<div id="dSearch">
+	<div class="sObj"><input type="text" name="q" value="" onclick="this.value='';"></div>
+</div>
+</form>
+</TD>
+</TR>
+</TABLE>
+
+<TABLE cellspacing="0" cellpadding=0 Border=0 width=100% HEIGHT=100%>
+<TR width=100%>
+<TD VALIGN=TOP>
+<TABLE >
+<TR width=100%>
+<TD ALIGN=CENTER VALIGN=TOP >
+<a href="http://m.naver.com/aside/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_naver.jpg" valign="top" border="0"></a>
+<a href="http://www.google.co.kr/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Google.jpg" valign="top" border="0"></a>
+<a href="https://k01kim.tistory.com/manage/statistics/blog"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_tistory2.jpg" border="0"></a>
+<a href="https://keep.google.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_keep.jpg" valign="top" border="0"></a>
+<a href="https://www.evernote.com/Home.action"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Evernote.jpg" valign="top" border="0"></a>
+
+<a href="http://k01kim.ipdisk.co.kr:9080/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_nas.jpg" valign="top" border="0"></a>
+<a href="http://k01kim.ipdisk.co.kr:9091/transmission/web/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Transmission.jpg" valign="top" border="0"></a>
+<a href="http://192.168.0.1/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_iptime.jpg" valign="top" border="0"></a>
+<a href="http://k01kim.dothome.co.kr/home.htm"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_home.jpg" valign="top" border="0"></a>
+<a href="https://m.youtube.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_YouTube.jpg" valign="top" border="0"></a>
+
+<a href="https://www.reddit.com/r/tasker/new/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_reddit.jpg" valign="top" border="0"></a>
+<a href="https://www.reddit.com/r/MotorsportsReplays/search/?q=SkyF1HD&amp;type=posts&amp;t=week"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_f1_red.jpg" valign="top" border="0"></a>
+<a href="https://www.formula1.com/en/racing/2026"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_f1.jpg" valign="top" border="0"></a>
+<a href="https://www.google.com/adsense/new/u/0/pub-8836106373406393/home"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_adsense.jpg" valign="top" border="0"></a>
+<a href="https://www.google.com/analytics/web/#dashboard/753B7WRVTvSj1CaTVvEeXA/a69023317w105933266p110264976/%3F_u.date00%3D20250630%26_u.date01%3D20250630/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_analytics.jpg" border="0"></a> 
+
+<a href="https://www.instagram.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Instagram.jpg" valign="top" border="0"></a>
+<a href="http://m.facebook.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_facebook.jpg" valign="top" border="0"></a>
+<a href="http://m.ppomppu.co.kr/new/bbs_list.php?id=freeboard"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_PpomPpu.jpg" valign="top" border="0"></a>
+<a href="https://www.tplusmobile.com/main/member/member-info"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_mvno.jpg" valign="top" border="0"></a>
+<a href="https://www.moyoplan.com/plans?isUnlimitedData=false&amp;fee=0-4000&amp;excludeDiscount=8-9999&amp;sorting=fee_asc&amp;page=1"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_MoYo.jpg" valign="top" border="0"></a>
+
+<a href="https://apk4free.net/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_apk.jpg" valign="top" border="0"></a>
+<a href="https://anissia.net/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Anissia.jpg" valign="top" border="0"></a>
+<a href="https://subsplease.org/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_subsplease.jpg" valign="top" border="0"></a>
+<a href="https://syosetu.com/favnovelmain/list/?nowcategory=1&amp;order=updated_at"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Noble.jpg" valign="top" border="0"></a>
+<a href="https://gemini.google.com/?hl=ko"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_gemini.jpg" valign="top" border="0"></a>
+
+<a href="https://nara-speller.co.kr/speller/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_hangul_mat.jpg" valign="top" border="0"></a>
+<a href="http://ko.dict.naver.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_kor_dict.jpg" valign="top" border="0"></a>
+<a href="https://dict.wordrow.kr/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_std_kor_dict.jpg" valign="top" border="0"></a>
+<a href="https://ja.dict.naver.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_jpn_kor_dict.jpg" valign="top" border="0"></a>
+<a href="https://www.deepl.com/ko/translator"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_deepl.jpg" valign="top" border="0"></a>
+
+<a href="http://m.humoruniv.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_haha.jpg" valign="top" border="0"></a>
+<a href="http://m.11st.co.kr/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_11st.jpg" valign="top" border="0"></a>
+<a href="http://m.gmarket.co.kr/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Gmarket.jpg" valign="top" border="0"></a>
+<a href="http://m.auction.co.kr/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_Auction.jpg" valign="top" border="0"></a>
+<a href="https://m.coupang.com/"><img class="mimg" src="http://k01kim.dothome.co.kr/image/mimg_coupang.png" valign="top" border="0"></a>
+
+<!--
+<a href=""><img class="mimg" src="image/.jpg" valign="top" border="0"></a>
+<a href="http://www.tworld.co.kr/"><img class="mimg" src="image/mimg_Tworld.jpg" valign="top" border="0"></a>
+<a href="https://ko.aliexpress.com/"><img class="mimg" src="image/mimg_Aliexpress.jpg" valign="top" border="0"></a>
+<a href="https://www.heypoll.co.kr/poll"><img class="mimg" src="image/mimg_tillion.jpg" valign="top" border="0"></a>
+-->
+</TD>
+</TR>
+</TABLE>
+
+
+<p>
+<a href="https://m.dhlottery.co.kr">로또</a>&nbsp;&nbsp;
+<a href="https://www.otokimall.com">오뚜기</a>&nbsp;&nbsp;
+<a href="https://www.sparklemall.co.kr">스파클</a>&nbsp;&nbsp;
+<a href="https://www.windy.com/?34.169,127.052,5">Windy</a>&nbsp;&nbsp;
+<a href="https://www.weather.go.kr/">기상청</a>&nbsp;&nbsp;
+<a href="https://chatgpt.com/">chatgpt</a>&nbsp;&nbsp;
+<a href="https://www.google.com/interests/saved">Saved</a>&nbsp;&nbsp;
+
+</p><p><br>
+<a href="https://papago.naver.com/">파파고</a>&nbsp;&nbsp;
+<a href="https://translate.google.co.kr/">구글번역</a>&nbsp;&nbsp;
+<a href="http://danawa.com/">다나와</a>&nbsp;&nbsp;
+<a href="https://ko.aliexpress.com/">AliExpress</a>
+<a href="https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv13/">Xiaomi EU</a>&nbsp;&nbsp;
+
+</p><p><br>
+<a href="http://192.168.0.250:9080/">NAS_250</a>&nbsp;&nbsp;
+<a href="http://192.168.0.250:9091/transmission/web/">Torrent_250</a>
+<a href="https://elib.seoul.go.kr/main">서울도서관</a>&nbsp;&nbsp;
+<a href="http://e-lib.sen.go.kr/">교육청도서관</a>&nbsp;&nbsp;
+<a href="https://library.busan.go.kr/">부산도서관</a>&nbsp;&nbsp;
+<a href="https://mplib.mapo.go.kr/">마포구도서관</a>&nbsp;&nbsp;
+
+</p><p><br>
+<a href="https://www.yytelecom.co.kr/">여유모바일</a>&nbsp;&nbsp;
+<a href="https://www.annextele.com/">Annex</a>&nbsp;&nbsp;
+<a href="https://www.mobing.co.kr/product/plan/promotion">모빙</a>&nbsp;&nbsp;
+<a href="https://www.ktmmobile.com/m/rate/rateList.do">KTM</a>&nbsp;&nbsp;
+<a href="http://www.freet.co.kr/">FreeT</a>&nbsp;&nbsp;
+<a href="https://www.mvnohub.kr/user/prdt/TblUserMadePrdtUsimList.do">알뜰폰허브</a>&nbsp;&nbsp;
+
+</p><p><br>
+<a href="https://m.bobaedream.co.kr/board/new_writing/best">보배드림</a>&nbsp;&nbsp;
+<a href="https://amazfitwatchfaces.com/forum/viewtopic.php?f=29&amp;t=720">WFTool</a>&nbsp;&nbsp;
+
+</p><p><br>
+</p></td></tr></tbody></table></body></html>
+<a href=""></a>&nbsp;&nbsp;
